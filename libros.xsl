@@ -9,14 +9,13 @@
   
   <xsl:template match="book">
      <p>
-			<h1>Obra: <xsl:value-of select="title"/></h1>
-     </p>
-     	&#x3000;Autor: <xsl:value-of select="author"/>
-     <p>
-	    &#x3000;Año: <anio><xsl:value-of select="year"/></anio>
+			<h1>OBRA: <xsl:value-of select="title"/></h1>
      </p>
      <p>
-	    &#x3000;Precio: <precio><xsl:value-of select="price"/>€</precio>
+	    \u25CFAño: <anio><xsl:value-of select="year"/></anio>
+     </p>
+     <p>
+	    &#x3000;Precio: <precio><xsl:value-of select="price"/></precio> euros.
      </p>
 	
   </xsl:template>
