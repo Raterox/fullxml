@@ -1,8 +1,14 @@
-
+h3{
+    color:black;
+}
+p{
+    color:blue;
+}
 anio {
     color:blue
 }
 precio{
+    color:blue;
     font-weight: bold;
     background-color: yellow;
 }
